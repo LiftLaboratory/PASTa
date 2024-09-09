@@ -3,7 +3,7 @@ Port Access Spectral Tool alpha - a Python program to control a Biotek μQuant U
 
 Created by Patrick McArthur and Ryan Sartor at NC State University
 
-This application can be used to control a BioTek uQuant [(mu)Quant] 96-well microplate reader.
+This application can be used to control a BioTek μQuant UV-Vis Spectrometer (96-well microplate reader).
 
 It is written in Python and uses the pySerial library [https://github.com/pyserial/]
 
