@@ -14,7 +14,7 @@ The Application has 3 different modes that can be selected from the UI dropdown 
 2) Spectral Scan:
    Similar to single scan but a range of wavelengths is specified and each wavelength is read for each well.
 
-3) Timecourse Scan:
+3) Time course Scan:
    Runs a spectral scan as described above and repeats at specified intervals for a specified number of times.
 
 All data is stored as simple .csv output files. The destination folder is specified in the UI.
