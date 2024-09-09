@@ -8,13 +8,13 @@ This application can be used to control a BioTek μQuant UV-Vis Spectrometer (96
 It is written in Python and uses the pySerial library [https://github.com/pyserial/]
 
 The Application has 3 different modes that can be selected from the UI dropdown menu:
-1) Single Scan:
+1) Single Wavelength Scan:
    This mode requires a range of wells to be specified along with a single wavelength. It will read this wavelength from all wells
 
-2) Spectral Scan:
+2) Full Spectral Scan:
    Similar to single scan but a range of wavelengths is specified and each wavelength is read for each well.
 
-3) Time course Scan:
+3) Timecourse Spectral Scan:
    Runs a spectral scan as described above and repeats at specified intervals for a specified number of times.
 
 All data is stored as simple .csv output files. The destination folder is specified in the UI.
